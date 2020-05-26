@@ -83,4 +83,4 @@ Feel free to change to any other coding style you prefer by editing `.prettierrc
 
 ## License
 
-Licensed under ISC. See the LICENSE file for details.
+Licensed under MIT. See LICENSE file for details.
