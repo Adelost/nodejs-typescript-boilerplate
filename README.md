@@ -51,13 +51,6 @@ See `package.json` for more options.
 To assist in using environment variables before publishing to other environments, environment variables can be overridden locally by
 creating `./.local/env.json` which is also ignored by git.
 
-## Notes
-
-```
-npm run minify
-npm run start-minified
-```
-
 ## Workflow
 
 To develop, run typescript compiler in watch mode, `npm run watch`, and code from `src/`.
