@@ -10,7 +10,7 @@ coverage/
 
 # Project
 tmp/
-.local
+.local/
 
 # Optional
 # By standard package-lock should be commited but feel free to

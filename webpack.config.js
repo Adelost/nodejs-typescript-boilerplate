@@ -1,11 +1,9 @@
-const path = require('path')
-
 module.exports = {
   entry: './src/app.ts',
   target: 'node',
-  // mode: 'production',
-  mode: 'development',
-  devtool: 'inline-source-map',
+  mode: 'production',
+  // mode: 'development',
+  // devtool: 'inline-source-map',
   module: {
     rules: [
       {
@@ -23,4 +21,4 @@ module.exports = {
     filename: 'app.js',
     path: `${__dirname}/dist-minified`,
   },
-}
+};
