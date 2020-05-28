@@ -48,8 +48,8 @@ npm run start-minified
 
 See `package.json` for more options.
 
-To assist in using environment variables before publishing to other environments, environment variables can be overridden locally by
-creating `./.local/env.json` which is also ignored by git.
+To assist in using environment variables before publishing to other environments, variables can be overridden locally by
+creating `.local/env.json` which is also ignored by git.
 
 ## Workflow
 
