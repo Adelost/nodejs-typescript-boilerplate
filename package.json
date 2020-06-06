@@ -1,8 +1,12 @@
 {
   "name": "typescript-nodejs-project-starter",
   "version": "1.0.0",
+  "description": "Node.js with Typescript boilerplate, using Jest, ESLint, Prettier and Webpack",
   "main": "app.js",
   "types": "dist/app.d.ts",
+  "author": "Mattias E. O. Andersson",
+  "license": "MIT",
+  "homepage": "https://github.com/Adelost/nodejs-typescript-boilerplate#readme",
   "scripts": {
     "clean": "rimraf dist dist-minified coverage tmp",
     "start": "node dist/app.js",
@@ -16,8 +20,10 @@
     "lint": "eslint --ext ts ./src",
     "lint-fix": "npm run format && npm run lint -- --fix"
   },
-  "author": "adelost@gmail.com",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adelost/nodejs-typescript-boilerplate.git"
+  },
   "devDependencies": {
     "@types/jest": "25.2.3",
     "@types/node": "14.0.5",
