@@ -1,5 +1,5 @@
 import * as fs from 'fs';
-import { nanoid } from 'nanoid';
+import { createLongStoryId } from 'mnemonic-id';
 import config from './config';
 import json from './data/example.json';
 import { getAnswer } from './helper';
@@ -12,9 +12,7 @@ console.log(`config test: ${config.CONFIG_TEST}`);
 console.log(`config env test: ${config.ENV_TEST}`);
 console.log(`load json: ${JSON.stringify(json)}`);
 console.log(`call function: ${getAnswer()}`);
-console.log(`call dependency (nanoid): ${nanoid()}`);
-
-if (json) console.log('single-line condition works');
+console.log(`call dependency (mnemonic-id): ${createLongStoryId()}`);
 
 console.log('closure test');
 const bar = (value: number) => console.log(value);

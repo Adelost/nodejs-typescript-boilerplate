@@ -1,7 +1,7 @@
 # NodeJs
 node_modules/
 dist/
-dist-minified/
+minified/
 coverage/
 
 # IDE
@@ -11,6 +11,9 @@ coverage/
 # Project
 tmp/
 .local/
+
+# CI
+.coveralls.yml
 
 # Optional
 # By standard package-lock should be commited but feel free to

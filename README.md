@@ -53,13 +53,15 @@ creating `.local/env.json` which is also ignored by git.
 
 ## Workflow
 
-To develop, run typescript compiler in watch mode, `npm run watch`, and code from `src/`.
+To develop, run typescript compiler in watch mode, `npm run watch`, and code from `src/`. 
+
+Alternatively, set up `ts-node` in your IDE (usually by adding `--require ts-node/register` as parameter to Node) to skip the compilation
+step, however, `ts-node` has a somewhat slower startup time compared to running compiler in watch mode that can increase in larger
+projects.
 
 To run/debug, set breakpoints in `src/`, select file to run/debug from `dist/`.
 In this way IDEs such as WebStorm and VSCode usually handles source maps automatically.
 
-Alternatively, set up `ts-node` in your IDE to skip the compilation step, however, `ts-node` can result in slow startup time
-in large projects compared to running typescript in watch mode.
 
 ## License
 

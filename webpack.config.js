@@ -1,5 +1,5 @@
 module.exports = {
-  entry: './src/app.ts',
+  entry: './src/index.ts',
   target: 'node',
   mode: 'production',
   // mode: 'development',
@@ -18,7 +18,7 @@ module.exports = {
   },
   node: false,
   output: {
-    filename: 'app.js',
-    path: `${__dirname}/dist-minified`,
+    filename: 'index.js',
+    path: `${__dirname}/minified`,
   },
 };
